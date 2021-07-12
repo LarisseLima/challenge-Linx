@@ -24,13 +24,13 @@
           </p>
           <nav class="menu">
               <a class="menu__item" href="#">Conheça a Linx</a>
-              <a class="menu__item" href="#">Ajude o algorítimo</a>
-              <a class="menu__item" href="#">Seus produtos</a>
-              <a class="menu__item" href="#">Compartilhe</a>
+              <a class="menu__item" href="#help">Ajude o algorítimo</a>
+              <a class="menu__item" href="#products">Seus produtos</a>
+              <a class="menu__item" href="#shared">Compartilhe</a>
           </nav>
       </header>
       <main class="main">
-        <section class="section" data-help-algorithm>
+        <section class="section" id="help">
             <article class="article">
                 <h1 class="article__title level_1">
                     Ajude o algorítimo a ser mais certeiro
@@ -87,7 +87,7 @@
                 </button>
             </form>
         </section>
-        <section class="section section_products">
+        <section class="section section_products" id="products">
             <h2 class="level_2 dividing-line">
                 <span class="section_products__title-adapter">Sua seleção especial</span>
             </h2>
@@ -95,9 +95,8 @@
             <ul class="section__list" data-products-list>
             </ul>
 
-            <button class="button section__products__button" type="button" data-load-more-products>
-                Ainda mais produtos aqui!
-            </button>
+            <button class="button section__products__button" type="button">
+              <a href="products.html">Ainda mais produtos aqui!</a></button>
         </section>
         <section class="section section_newsletter">
             <h2 class="level_2 dividing-line">
@@ -140,7 +139,7 @@
               <p class="footer__content__paragraph">2019</p>
           </div>
       </footer>
-      <script  src="./js/index.js"></script>
+      <script  src="./js/main.js"></script>
   </body>
   </html>
   
