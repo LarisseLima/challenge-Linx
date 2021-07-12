@@ -4,7 +4,7 @@
 }
 
 .article__title {
-  color: gray;
+  color: var(--gray);
   margin-bottom: 30px;
   position: relative;
 }

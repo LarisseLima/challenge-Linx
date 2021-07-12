@@ -1,12 +1,10 @@
-// Função de Get de acesso a API
-function userGet(url) {
+function userData(url) {
   let request = new XMLHttpRequest();
   request.open("GET", url, false);
   request.send();
   return request.responseText;
 }
 
-// função que cria os elementos HTML com os dados retornados pela API
 function newline(product) {
   console.log(product);
   line = document.createElement("td");
@@ -17,7 +15,6 @@ function newline(product) {
   OldPrice = document.createElement("h6");
   Price = document.createElement("h4");
   share = document.createElement("h6");
-
   Name.innerHTML = product.name;
   IImage.setAttribute("src", "http:" + product.image);
   Description.innerHTML = product.description;
@@ -25,7 +22,6 @@ function newline(product) {
   Price.innerHTML = "Por: R$ " + product.price;
   btn.innerHTML = "Comprar";
   share.innerHTML = "ou 2x de R$ " + product.price / 2;
-
   line.appendChild(IImage);
   line.appendChild(Name);
   line.appendChild(Description);
@@ -38,7 +34,7 @@ function newline(product) {
 }
 
 function main() {
-  let data = userGet(
+  let data = userData(
     "https://frontend-intern-challenge-api.iurykrieger.vercel.app/products"
   );
   let content = JSON.parse(data);
