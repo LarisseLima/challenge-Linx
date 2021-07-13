@@ -37,12 +37,14 @@ Web system created to learn about LINX products
   #Start with
   Go live see the website.
   
-  #DEPLOY
-  [HERE](https://linx-larisse.vercel.app/)
+ 
 ```
 
 # :scroll: License
 
 This project is under License [MIT](https://github.com/LarisseLima/challenge-Linx/blob/master/LICENSE)
+
+# DEPLOY
+  [HERE](https://linx-larisse.vercel.app/)
 
 <p align="center"><b>Done with 	:coffee: by Larisse Lima</b></p>
