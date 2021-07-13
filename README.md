@@ -40,6 +40,6 @@ Web system created to learn about LINX products
 
 # :scroll: License
 
-This project is under License [MIT]()
+This project is under License [MIT](https://github.com/LarisseLima/challenge-Linx/blob/master/LICENSE)
 
 <p align="center"><b>Done with 	:coffee: by Larisse Lima</b></p>
