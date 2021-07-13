@@ -8,15 +8,6 @@
   padding: 0;
 }
 
-/* .products {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: left;
-  flex-direction: row;
-  border: 1px solid var(--lighter-gray);
-} */
-
 td {
   padding-left: 20px;
   display: flex;
@@ -59,4 +50,14 @@ button {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.div_email {
+  margin-left: 100px;
+  color: var(--gray);
+}
+
+.back_home a {
+  color: var(--darker-gray);
+  text-decoration: underline;
 }
